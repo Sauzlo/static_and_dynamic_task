@@ -25,7 +25,8 @@ class CardGame:
     else
       return False
    
-  # dif in the line below should be def to declare a method, there should also be a comma between card1 and card2
+  # dif in the line below should be def to declare a method
+  # there should be a comma between card1 and card2 in line below
   dif highest_card(self, card1 card2):
   # line below and subsequent lines should be indented
   if card1.value > card2.value:
@@ -41,6 +42,8 @@ def cards_total(self, cards):
   total
   for card in cards:
     total += card.value
+    # return in the line below should be indented back as to not be part of the loop
+    # total should be converted to string to concatenate
     return "You have a total of" + total
   
 ```
